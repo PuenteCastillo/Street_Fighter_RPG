@@ -1,0 +1,35 @@
+body{
+    background-image: url("../images/background/animated-gifs-of-fighting-game-backgrounds-51.gif");
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'VT323', monospace;
+    font-family: 'Press Start 2P', cursive;
+}
+.hide{
+    display: none;
+}
+.fighter{
+    position: fixed;
+    bottom:0;
+}
+.opponent{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.control{
+    height: 20em;
+   
+}
+.title{
+    
+    min-height: 3em;
+    margin: auto;
+    margin-bottom: 1em;
+    padding: 1em;
+    background-color: rgba(255, 255, 255, 0.794);
+    border-radius: 2%;
+    text-align: center;
+
+}
