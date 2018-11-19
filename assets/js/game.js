@@ -18,11 +18,11 @@ $(document).ready(function () {
             type: "water",
             isDead: false,
 
-            picture: "./images/p1/p1-pic.jpg",
-            idol: "./images/p1/p1_idol.gif",
-            attack: "./images/p1/p1_attack.gif",
-            hit: "./images/p1/p1-hit.gif",
-            ko: "./images/p1/p1_KO.gif",
+            picture: "./assets/images/p1/p1-pic.jpg",
+            idol: "./assets/images/p1/p1_idol.gif",
+            attack: "./assets/images/p1/p1_attack.gif",
+            hit: "./assets/images/p1/p1-hit.gif",
+            ko: "./assets/images/p1/p1_KO.gif",
 
         };
         var char2 = {
@@ -32,11 +32,11 @@ $(document).ready(function () {
             type: "fire",
             isDead: false,
 
-            picture: "./images/p2/pr2=-pic.jpg",
-            idol: "./images/p2/p2-idol.gif",
-            attack: "./images/p2/pr2-attack.gif",
-            hit: "./images/p2/p2-hit.gif",
-            ko: "./images/p2/pr2-ko.gif",
+            picture: "./assets/images/p2/pr2=-pic.jpg",
+            idol: "./assets/images/p2/p2-idol.gif",
+            attack: "./assets/images/p2/pr2-attack.gif",
+            hit: "./assets/images/p2/p2-hit.gif",
+            ko: "./assets/images/p2/pr2-ko.gif",
 
 
         };
@@ -47,11 +47,11 @@ $(document).ready(function () {
             type: "grass",
             isDead: false,
 
-            picture: "./images/p3/p3-pic.jpg",
-            idol: "./images/p3/ps3-idol.gif",
-            attack: "./images/p3/p3-attack.gif",
-            hit: "./images/p3/p3-hit.gif",
-            ko: "./images/p3/pr3-ko.gif",
+            picture: "./assets/images/p3/p3-pic.jpg",
+            idol: "./assets/images/p3/ps3-idol.gif",
+            attack: "./assets/images/p3/p3-attack.gif",
+            hit: "./assets/images/p3/p3-hit.gif",
+            ko: "./assets/images/p3/pr3-ko.gif",
 
 
         };
@@ -62,11 +62,11 @@ $(document).ready(function () {
             type: "wind",
             isDead: false,
 
-            picture: "./images/p4/p4-pic.jpg",
-            idol: "./images/p4/p4-idol.gif",
-            attack: "./images/p4/p4-punch.gif",
-            hit: "./images/p4/p4-hit.gif",
-            ko: "./images/p4/p4-ko.gif",
+            picture: "./assets/images/p4/p4-pic.jpg",
+            idol: "./assets/images/p4/p4-idol.gif",
+            attack: "./assets/images/p4/p4-punch.gif",
+            hit: "./assets/images/p4/p4-hit.gif",
+            ko: "./assets/images/p4/p4-ko.gif",
 
         };
         //   Character List End ///////

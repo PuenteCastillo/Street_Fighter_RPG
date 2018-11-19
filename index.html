@@ -7,8 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
+
     <link href="https://fonts.googleapis.com/css?family=Knewave|Press+Start+2P" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Document</title>
 </head>
 
@@ -35,13 +36,13 @@
             </div>
         </div>
         <div class="row mt-5 just justify-content-md-center">
-            <img src="./images/p1/p1-pic.jpg" alt="..." class="img-thumbnail mr-4" style="width: 15em; height: 15em;"
+            <img src="./assets/images/p1/p1-pic.jpg" alt="..." class="img-thumbnail mr-4" style="width: 15em; height: 15em;"
                 id="c1">
-            <img src="./images/p2/pr2=-pic.jpg" alt="..." class="img-thumbnail  mr-4" style="width: 15em; height: 15em;"
+            <img src="./assets/images/p2/pr2=-pic.jpg" alt="..." class="img-thumbnail  mr-4" style="width: 15em; height: 15em;"
                 id="c2">
-            <img src="./images/p3/p3-pic.jpg" alt="..." class="img-thumbnail  mr-4" style="width: 15em; height: 15em;"
+            <img src="./assets/images/p3/p3-pic.jpg" alt="..." class="img-thumbnail  mr-4" style="width: 15em; height: 15em;"
                 id="c3">
-            <img src="./images/p4/p4-pic.jpg" alt="..." class="img-thumbnail  mr-4" style="width: 15em; height: 15em;"
+            <img src="./assets/images/p4/p4-pic.jpg" alt="..." class="img-thumbnail  mr-4" style="width: 15em; height: 15em;"
                 id="c4">
         </div>
 
@@ -51,17 +52,17 @@
 
     <div class="container mt-5 hide " id="opponentPage">
         <div class="row justify-content-md-center mt-5 mb-5">
-            <img src="./images/p2/pr2=-pic.jpg" alt="..." class="img-thumbnail  mr-4" style="width: 15em; height: 15em;"
+            <img src="./assets/images/p2/pr2=-pic.jpg" alt="..." class="img-thumbnail  mr-4" style="width: 15em; height: 15em;"
                 id="opponent0">
-            <img src="./images/p3/p3-pic.jpg" alt="..." class="img-thumbnail  mr-4" style="width: 15em; height: 15em;"
+            <img src="./assets/images/p3/p3-pic.jpg" alt="..." class="img-thumbnail  mr-4" style="width: 15em; height: 15em;"
                 id="opponent1">
-            <img src="./images/p4/p4-pic.jpg" alt="..." class="img-thumbnail  mr-4" style="width: 15em; height: 15em;"
+            <img src="./assets/images/p4/p4-pic.jpg" alt="..." class="img-thumbnail  mr-4" style="width: 15em; height: 15em;"
                 id="opponent2">
         </div>
 
         <div class="row mt-5 fighter justify-content-md-center ">
             <div class="col-md-6">
-                <img src="./images/p2/p2-hit.gif" alt="..." class=" mr-4" style="" id="charImg">
+                <img src="./assets/images/p2/p2-hit.gif" alt="..." class=" mr-4" style="" id="charImg">
                 <div class="progress " style="width: 20em;  margin: auto;">
 
                     <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 50%"
@@ -84,18 +85,18 @@
             </div>
         </div>
         <div class="row justify-content-md-center control hide" id="resultContainer">
-                <div class="col-md-5 title" id="fight">
-                    <h1 id="result"> You Win!</h1>
-                </div>
-                <div class="col-md-5 title" id="powerUP">
-                    <h1 id ="newGame">New Game!</h1>
-                </div>
+            <div class="col-md-5 title" id="fight">
+                <h1 id="result"> You Win!</h1>
             </div>
+            <div class="col-md-5 title" id="powerUP">
+                <h1 id="newGame">New Game!</h1>
+            </div>
+        </div>
 
-        <div class="row mt-5 fighter  justify-content-md-center " >
+        <div class="row mt-5 fighter  justify-content-md-center ">
             <div class="charCHosen col-md-6">
 
-                <img src="./images/p1/p1_idol.gif" alt="..." class=" mr-4" style="" id="charImgB">
+                <img src="./assets/images/p1/p1_idol.gif" alt="..." class=" mr-4" style="" id="charImgB">
                 <div class="progress " style="width: 20em;  margin: auto;">
 
                     <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 50%"
@@ -105,7 +106,7 @@
             </div>
             <div class="oppChosen col-md-6">
 
-                <img src="./images/p3/ps3-idol.gif" alt="..." class=" mr-4 opponent" style="" id="oppImgB">
+                <img src="./assets/images/p3/ps3-idol.gif" alt="..." class=" mr-4 opponent" style="" id="oppImgB">
                 <div class="progress" style="width: 20em;   margin: auto;">
                     <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 50%"
                         aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" id="oppHealthB">
@@ -114,47 +115,48 @@
             </div>
 
         </div>
-        
+
     </div>
 
 
-    <audio id = "myAudio">
-        <source src="./audio/Street Fighter II Arcade Music - Ryu Stage - CPS1.mp3" type="audio/ogg">
-      Your browser does not support the audio element.
+    <audio id="myAudio">
+        <source src="./assets/audio/Street Fighter II Arcade Music - Ryu Stage - CPS1.mp3" type="audio/ogg">
+        Your browser does not support the audio element.
     </audio>
-    <audio id = "punchOne">
-        <source src="./audio/punch.mp3" type="audio/ogg">
-      Your browser does not support the audio element.
+    <audio id="punchOne">
+        <source src="./assets/audio/punch.mp3" type="audio/ogg">
+        Your browser does not support the audio element.
     </audio>
-    <audio id = "punchTwo">
-        <source src="./audio/punch2.mp3" type="audio/ogg">
-      Your browser does not support the audio element.
+    <audio id="punchTwo">
+        <source src="./assets/audio/punch2.mp3" type="audio/ogg">
+        Your browser does not support the audio element.
     </audio>
-    <audio id = "fightAudio">
-        <source src="./audio/fight.mp3" type="audio/ogg">
-      Your browser does not support the audio element.
+    <audio id="fightAudio">
+        <source src="./assets/audio/fight.mp3" type="audio/ogg">
+        Your browser does not support the audio element.
     </audio>
-    <audio id = "youWinAudio">
-        <source src="./audio/you win.mp3" type="audio/ogg">
-      Your browser does not support the audio element.
+    <audio id="youWinAudio">
+        <source src="./assets/audio/you win.mp3" type="audio/ogg">
+        Your browser does not support the audio element.
     </audio>
-    <audio id = "youLooseAudio">
-        <source src="./audio/you loose.mp3" type="audio/ogg">
-      Your browser does not support the audio element.
+    <audio id="youLooseAudio">
+        <source src="./assets/audio/you loose.mp3" type="audio/ogg">
+        Your browser does not support the audio element.
     </audio>
-    <audio id = "startAudio">
-        <source src="./audio/start.mp3" type="audio/ogg">
-      Your browser does not support the audio element.
+    <audio id="startAudio">
+        <source src="./assets/audio/start.mp3" type="audio/ogg">
+        Your browser does not support the audio element.
     </audio>
 
     <!-- bootstrap -->
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
-    <script src="./js/game.js"></script>
+    <script src="./assets/js/game.js"></script>
 
 </body>
 
